@@ -78,7 +78,7 @@ function formatPokemon(pokemon: Pokemon): string {
 }
 
 server.registerTool(
-  "get_pokemon_info",
+  "get-pokemon-info",
   {
     description: "Get detailed information about a Pokémon by name.",
     inputSchema: { pokemon: z.string() },
